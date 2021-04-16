@@ -5,5 +5,5 @@ def helloworld():
 def main():
     s = panggil(helloworld())
     print(s)
-    if _name_ == '_main_' :
+    if __name__ == '__main__' :
         main()
